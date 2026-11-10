@@ -1,0 +1,96 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #252525;
+}
+
+.topo {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.resumo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.resumo-card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.resumo-card strong {
+    display: block;
+    font-size: 22px;
+    margin-top: 10px;
+    color: #172554;
+}
+
+.lista-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.produto-card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    border-left: 6px solid gray;
+}
+
+.produto-card h3 {
+    margin-top: 0;
+}
+
+.produto-card p {
+    margin: 8px 0;
+}
+
+.barato {
+    border-left-color: green;
+}
+
+.medio {
+    border-left-color: orange;
+}
+
+.caro {
+    border-left-color: red;
+}
+
+.classificacao {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #eee;
+    font-size: 13px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
